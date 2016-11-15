@@ -5,5 +5,25 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
+    <Filter Include="소스 파일\Command">
+      <UniqueIdentifier>{bb14dbc5-3fc9-4741-9c2d-11957ff8e974}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Observer">
+      <UniqueIdentifier>{21821e25-27fa-4f58-947e-7136b765146d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameLoop">
+      <UniqueIdentifier>{6ce3a97f-fcd1-4a8e-86dd-e3283a6f18e6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="command.cpp">
+      <Filter>소스 파일\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="observer.cpp">
+      <Filter>소스 파일\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="gameloop.cpp">
+      <Filter>소스 파일\GameLoop</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
